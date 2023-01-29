@@ -26,8 +26,8 @@
     padding: 1rem calc((100% - 1200px) / 2);
     margin: auto;
     display: flex;
-    gap: 2ch;
-
+    gap: 1ch;
+    flex-wrap: wrap;
   }
 
   main{
@@ -40,7 +40,7 @@
 
   aside{
     margin: 1rem;
-    flex: 1 1 20%;
+    flex: 1 1 200px;
   }
 
 

@@ -50,5 +50,11 @@
   li {
     padding: 1rem;
     border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  li:hover {
+    cursor: pointer;
+    background: #eee;
   }
 </style>

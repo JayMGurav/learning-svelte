@@ -87,17 +87,18 @@
 </script>
 
 <div>
-  {#each data as category, i (category.id)}
+  {#each data as category (category.id)}
     <Card  {category}/>
   {/each}
 </div>
 
 <style>
   div {
+    padding: 0%;
+    margin: 0%;
     margin-top: 1rem;
-    display: flex;
-    align-items: flex-start;
-    gap: 2ch;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 2ch;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 </style>

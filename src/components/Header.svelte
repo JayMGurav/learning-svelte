@@ -8,7 +8,7 @@
     text-align: center;
   }
   header > h1{
-    font-size: 4rem;
+    font-size: calc(16px + 3.2vw);
     color: white;
     line-height: 1;
     letter-spacing: -.05em;
