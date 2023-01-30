@@ -2,18 +2,12 @@
   import { searchValue } from "../store"
 
   let value = "";
-
-  function onSearchChangeHandler(val) {
-    searchValue.update(val)
-    value = val
-  }
-
 </script>
 
 <div>
   <input 
-    type="text" {value} 
-    onchange={(e) => onSearchChangeHandler(e.target.value)} 
+    type="text" 
+    bind:value={value}
     placeholder="SEARCH OR ASK QUESTION"/>
 </div>
 

@@ -1,12 +1,5 @@
 <script>
   import Card from "./Card.svelte";
-  import {searchValue} from "../store"
-
-  let searchText;
-
-  searchValue.subscribe((val) => {
-    searchText = val;
-  })
 
   const data = [
     {  
