@@ -1,8 +1,8 @@
 <script>
   import SearchBox from "./SearchBox.svelte";
-  import CardList from "./CardList.svelte";
-  import FAQ from "./FAQ.svelte";
-  import ContactInfo from "./ContactInfo.svelte";
+  import CardList from "./CardList";
+  import FAQ from "./FAQ";
+  import ContactInfo from "./ContactInfo";
 
 
 

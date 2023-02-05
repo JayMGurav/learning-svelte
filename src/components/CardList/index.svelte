@@ -1,5 +1,5 @@
 <script>
-  import Card from "./Card.svelte";
+  import Card from "../Card"
 
   const data = [
     {  
@@ -48,7 +48,7 @@
       ] 
     },
     {  
-      id: 7,
+      id: 6,
       title: "Business Accounts", 
       topics: [
         "Business Account",
@@ -57,7 +57,7 @@
       ] 
     },
     {  
-      id: 8,
+      id: 7,
       title: "Marketplace and Decathlon partners", 
       topics: [
         "What's MarketPlace?",
@@ -67,7 +67,7 @@
       ] 
     },
     {  
-      id: 9,
+      id: 8,
       title: "Gift cards", 
       topics: [
         "Where to use gift cards",
@@ -79,9 +79,9 @@
 
 </script>
 
-<div>
+<div role="list" aria-label="categories">
   {#each data as category (category.id)}
-    <Card  {category}/>
+    <Card  {category} />
   {/each}
 </div>
 

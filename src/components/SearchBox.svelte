@@ -1,5 +1,4 @@
 <script>
-  import { searchValue } from "../store"
 
   let value = "";
 </script>

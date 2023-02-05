@@ -13,7 +13,7 @@
   <div class="faq_title">
     Frequently <span>Asked Questions</span>
   </div>
-  <ul>
+  <ul  aria-label="faqs">
     {#each faqs as question}
       <li>{question}</li>
     {/each}

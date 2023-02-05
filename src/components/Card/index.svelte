@@ -2,7 +2,7 @@
   export let category;
 </script>
 
-<div class="card">
+<div class="card" data-testid="card">
   <div class="card_header">
     {category.title}
   </div>
