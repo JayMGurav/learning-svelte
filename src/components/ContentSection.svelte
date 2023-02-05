@@ -1,28 +1,23 @@
 <script>
-  import SearchBox from "./SearchBox.svelte";
-  import CardList from "./CardList";
-  import FAQ from "./FAQ";
-  import ContactInfo from "./ContactInfo";
-
-
-
-
+  import SearchBox from './SearchBox.svelte'
+  import CardList from './CardList'
+  import FAQ from './FAQ'
+  import ContactInfo from './ContactInfo'
 </script>
 
 <section>
   <main>
     <SearchBox />
-    <CardList/>
-    <FAQ/>
+    <CardList />
+    <FAQ />
   </main>
   <aside>
-    <ContactInfo/>
+    <ContactInfo />
   </aside>
 </section>
 
-
 <style>
-  section{
+  section {
     padding: 1rem calc((100% - 1200px) / 2);
     margin: auto;
     display: flex;
@@ -30,18 +25,16 @@
     flex-wrap: wrap;
   }
 
-  main{
+  main {
     margin: 1rem;
     flex: 1 1 70%;
     display: flex;
     flex-direction: column;
-    gap:2ch;
+    gap: 2ch;
   }
 
-  aside{
+  aside {
     margin: 1rem;
     flex: 1 1 200px;
   }
-
-
 </style>

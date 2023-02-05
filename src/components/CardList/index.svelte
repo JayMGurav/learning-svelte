@@ -1,87 +1,66 @@
 <script>
-  import Card from "../Card"
+  import Card from '../Card'
 
   const data = [
-    {  
+    {
       id: 1,
-      title: "My Account", 
+      title: 'My Account',
       topics: [
-       "Create my account",
-       "Forgotten password",
-       "Communication preferences"
-      ] 
+        'Create my account',
+        'Forgotten password',
+        'Communication preferences',
+      ],
     },
-    {  
+    {
       id: 2,
-      title: "Return and Warranty ", 
-      topics: [
-       "Return options",
-       "Create an online return",
-       "Refund"
-      ] 
+      title: 'Return and Warranty ',
+      topics: ['Return options', 'Create an online return', 'Refund'],
     },
-    {  
+    {
       id: 3,
-      title: "My Order", 
-      topics: [
-       "click an collect",
-       "Cancel my order",
-       "Track my order"
-      ] 
+      title: 'My Order',
+      topics: ['click an collect', 'Cancel my order', 'Track my order'],
     },
-    {  
+    {
       id: 4,
-      title: "Payment", 
-      topics: [
-       "Payment options",
-       "When do I get charged",
-       "Payment declined"
-      ] 
+      title: 'Payment',
+      topics: ['Payment options', 'When do I get charged', 'Payment declined'],
     },
-    {  
+    {
       id: 5,
-      title: "Stores and Services", 
-      topics: [
-        "Contact my store",
-        "Collect from my store",
-        "Find my store"
-      ] 
+      title: 'Stores and Services',
+      topics: ['Contact my store', 'Collect from my store', 'Find my store'],
     },
-    {  
+    {
       id: 6,
-      title: "Business Accounts", 
-      topics: [
-        "Business Account",
-        "Bulk Order",
-        "Personalize clothing"
-      ] 
+      title: 'Business Accounts',
+      topics: ['Business Account', 'Bulk Order', 'Personalize clothing'],
     },
-    {  
+    {
       id: 7,
-      title: "Marketplace and Decathlon partners", 
+      title: 'Marketplace and Decathlon partners',
       topics: [
         "What's MarketPlace?",
-        "How to return MarketPlace orders",
-        "Marketplace 10 Partner Returns",
-        "MarketPlace returns policy"
-      ] 
+        'How to return MarketPlace orders',
+        'Marketplace 10 Partner Returns',
+        'MarketPlace returns policy',
+      ],
     },
-    {  
+    {
       id: 8,
-      title: "Gift cards", 
+      title: 'Gift cards',
       topics: [
-        "Where to use gift cards",
-        "Can I Personalize my gift card?",
-        "Gift Card for others",
-      ] 
+        'Where to use gift cards',
+        'Can I Personalize my gift card?',
+        'Gift Card for others',
+      ],
     },
   ]
-
 </script>
 
 <div role="list" aria-label="categories">
   {#each data as category (category.id)}
-    <Card  {category} />
+    <Card {category} />
   {/each}
 </div>
 

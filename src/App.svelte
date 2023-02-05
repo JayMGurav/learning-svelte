@@ -1,16 +1,15 @@
 <script>
-  import "./global.css"
-  import Main from "./components/Main.svelte";
+  import './global.css'
+  import Main from './components/Main.svelte'
 
-	let imgSrc = "https://custhelp.decathlon.co.uk/euf/assets/themes/standard/images/background.jpg";
+  let imgSrc =
+    'https://custhelp.decathlon.co.uk/euf/assets/themes/standard/images/background.jpg'
 </script>
 
-
-<img src={imgSrc} alt="background" lazy/>
-<Main/>
+<img src={imgSrc} alt="background" lazy />
+<Main />
 
 <style>
-
   img {
     width: 100%;
     height: auto;

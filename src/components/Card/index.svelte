@@ -1,5 +1,5 @@
 <script>
-  export let category;
+  export let category
 </script>
 
 <div class="card" data-testid="card">
@@ -7,17 +7,14 @@
     {category.title}
   </div>
   <div class="card_content">
-  <ul>
-    {#each category.topics as topic, i}
-      <li>{topic}</li>
-    {/each}
-  </ul>
-</div>
-  <div class="card_footer">
-    View all
+    <ul>
+      {#each category.topics as topic, i}
+        <li>{topic}</li>
+      {/each}
+    </ul>
   </div>
+  <div class="card_footer">View all</div>
 </div>
-
 
 <style>
   .card {
@@ -31,8 +28,7 @@
     flex: 1;
   }
 
-
- .card_header {
+  .card_header {
     background: rgb(0, 130, 195);
     border-radius: 10px 10px 0 0;
     padding: 1rem;
@@ -51,9 +47,9 @@
 
   .card_footer {
     margin-top: auto;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-weight: 500;
     padding: 1rem;
     color: rgb(0, 130, 195);
-  } 
+  }
 </style>

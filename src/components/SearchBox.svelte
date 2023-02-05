@@ -1,18 +1,13 @@
 <script>
-
-  let value = "";
+  let value = ''
 </script>
 
 <div>
-  <input 
-    type="text" 
-    bind:value={value}
-    placeholder="SEARCH OR ASK QUESTION"/>
+  <input type="text" bind:value placeholder="SEARCH OR ASK QUESTION" />
 </div>
 
-
 <style>
-  div{
+  div {
     padding: 0.5rem;
     display: flex;
     background-color: white;
@@ -24,12 +19,11 @@
     font-size: 1.25rem;
     background-color: #eee;
     border-radius: 8px;
-    border:none;
+    border: none;
   }
 
   input::placeholder {
     font-style: italic;
     color: rgb(183, 183, 183);
   }
-
 </style>
