@@ -6,7 +6,7 @@
     'https://custhelp.decathlon.co.uk/euf/assets/themes/standard/images/background.jpg'
 </script>
 
-<img src={imgSrc} alt="background" lazy />
+<img src={imgSrc} alt="background" loading="lazy" />
 <Main />
 
 <style>
